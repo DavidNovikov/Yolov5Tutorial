@@ -1,7 +1,7 @@
 import cv2
 import torch
 
-model = torch.hub.load('ultralytics/yolov5', 'yolov5s')
+model = torch.hub.load('ultralytics/yolov5', 'yolov5s') # load model
 
 red = (0, 0, 255)
 green = (0, 255, 0)
